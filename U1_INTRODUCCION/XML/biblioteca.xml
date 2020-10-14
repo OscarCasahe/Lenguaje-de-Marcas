@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libros>
+        <libro>
+            <autor>cervantes</autor>
+            <genero>aventuras</genero>
+            <titulo></titulo>
+            <capitulos>
+                <capitulo>
+                    <nombre></nombre>
+                    <pagina_inicio></pagina_inicio>
+                    <pagina_final></pagina_final>
+
+                </capitulo>
+
+            </capitulos>
+        </libro>
+
+        <libro>
+            <autor>cervantes</autor>
+            <genero>aventuras</genero>
+            <titulo></titulo>
+            <capitulos>
+                <capitulo>
+                    <nombre></nombre>
+                    <pagina_inicio></pagina_inicio>
+                    <pagina_final></pagina_final>
+
+                </capitulo>
+
+            </capitulos>
+        </libro>
+
+
+    </libros>
+
+
+</biblioteca>
