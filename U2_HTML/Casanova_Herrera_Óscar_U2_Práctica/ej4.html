@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset style="background-color: rgb(231, 217, 88);">
+            <table>
+                <tr>
+                    <td>
+                        <label>Leave Form </label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>More actions</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td for="email">Employee Email</td>
+                    <td><input type="email" id="email" disabled value="appuser@zohocreator.com"></td>
+                </tr>
+
+                <tr>
+                    <td for="id">Employee Id</td>
+                    <td><input type="number" id="id" disabled value="232"></td>
+                </tr>
+
+                <tr>
+                    <td for="name">Employee name</td>
+                    <td><input type="text" id="name" disabled value="appuser"></td>
+                </tr>
+
+                <tr>
+                    <td for="cargo">Designation</td>
+                    <td><input type="text" id="cargo" disabled value="Team Leader"></td>
+                </tr>
+
+                <tr>
+                    <td for="type">Leave type</td>
+                    <td><select id="type" required>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td for="date1">From</td>
+                    <td><input type="date" id="date1" required></td>
+                </tr>
+
+                <tr>
+                    <td for="date2">To</td>
+                    <td><input type="date" id="date2" required></td>
+                </tr>
+
+                <tr>
+                    <td for="dias">No of Days</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td for="comments">Reason</td>
+                   <td> <textarea name="comments" id="comments" cols="60" rows="10"></textarea></td>>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset style="background-color:rgb(207, 200, 200)" >
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>

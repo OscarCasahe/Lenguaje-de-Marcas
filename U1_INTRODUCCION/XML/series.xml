@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="series.xsd">
+    <temporada>
+        <fecha_inicio>5/8</fecha_inicio>
+        <fecha_fin>2012-12-19</fecha_fin>
+        <capitulos>
+            <titulo>casa</titulo>
+            <fecha_emision>2021-2-11</fecha_emision>
+
+        </capitulos>
+    </temporada>
+</serie>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ elementFormDefault ="qualified">
+<xs:element name="date">
+<xs:complexType>
+<xs:>
+<xs: name="year" type="xs:PositiveInteger"/>
+<xs:element name="month" type="xs:Positive"/>
+<xs:element name="day" type="xs:PositiveInteger"/>
+</xs:>
+</xs:complexType>
+
+
+</xs:element>
+</xs:schema>

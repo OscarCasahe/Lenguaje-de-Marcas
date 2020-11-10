@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<torneo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tenis.xsd">
+    <nombre>Rolland Garros</nombre>
+    <partido>
+        <resultado>4-1</resultado>
+        <jugador>
+            <nombre>Pepe</nombre>
+            <fn>1998-12-2</fn>
+        </jugador>
+        <jugador>
+            <nombre>Pepe</nombre>
+            <fn>1996-20-3</fn>
+        </jugador>
+    </partido>
+
+    <partido>
+        <resultado>6-5</resultado>
+        <jugador>
+            <nombre>Manuel</nombre>
+            <fn>1998-12-2</fn>
+        </jugador>
+        <jugador>
+            <nombre>Mario</nombre>
+            <fn>1996-16-3</fn>
+        </jugador>
+    </partido>
+</torneo>

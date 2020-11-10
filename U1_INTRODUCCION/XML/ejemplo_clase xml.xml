@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fecha.xsd">
+<xs:element name="date">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="year" type="xs:string"/>
+                <xs:element name="month" type="xs:string"/>
+                <xs:element name="day" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

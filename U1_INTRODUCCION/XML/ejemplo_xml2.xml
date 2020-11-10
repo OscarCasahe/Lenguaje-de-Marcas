@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE note curso [
+<!ELEMENT clase ( asignatura, alumnos*, profesor?) >
+<!ELEMENT alumnos (nombre+, apellidos+) >
+<!ELEMENT asignatura (#PCDATA) >
+<!ELEMENT alumno (#PCDATA) >
+<!ELEMENT profesor (#PCDATA) >
+]>
+
+<curso>
+    <clase>
+        <alumnos>
+            <alumno>
+                <nombre>Antonio Jesús</nombre>
+                <apellidos>Pistón Majuelo</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Pepe</nombre>
+                <apellidos>Grillo Montero</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Francisco</nombre>
+                <apellidos>Rodríguez Pérez</apellidos>
+            </alumno>
+
+        </alumnos>
+        <profesor>Juan Antonio Martínez</profesor>
+
+
+    </clase>
+</curso>

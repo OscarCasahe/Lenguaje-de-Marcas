@@ -1,0 +1,65 @@
+<?dtd version="1.0" encoding="utf-8"?>
+<!DOCTYPE curso [
+<!ELEMENT clase ( asignatura, alumnos*, profesor?) >
+<!ELEMENT alumnos (nombre, apellidos) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+<!ELEMENT asignatura (#PCDATA) >
+<!ELEMENT profesores (nombre, apellidos) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+]>
+
+<curso>
+    <clase>
+    <asignatura>
+     <alumnos>
+            <alumno>
+                <nombre>Antonio Jesús</nombre>
+                <apellidos>Pistón Majuelo</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Pepe</nombre>
+                <apellidos>Grillo Montero</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Francisco</nombre>
+                <apellidos>Rodríguez Pérez</apellidos>
+            </alumno>
+
+        </alumnos>
+        <profesor>
+            <nombre></nombre>
+            <apellidos></apellidos>
+        </profesor>
+
+    </asignatura>
+       
+
+        <alumnos>
+            <alumno>
+                <nombre>Antonio Jesús</nombre>
+                <apellidos>Pistón Majuelo</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Pepe</nombre>
+                <apellidos>Grillo Montero</apellidos>
+            </alumno>
+
+            <alumno>
+                <nombre>Francisco</nombre>
+                <apellidos>Rodríguez Pérez</apellidos>
+            </alumno>
+
+        </alumnos>
+        <profesor>
+            <nombre></nombre>
+            <apellidos></apellidos>
+        </profesor>
+
+
+    </clase>
+</curso>

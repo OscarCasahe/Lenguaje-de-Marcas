@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<centro_comercial>
+   <comercios>
+      <comercio tienda="JD">
+         <parcelas>1,2,3</parcelas>
+         <m_cuadrados>200</m_cuadrados>
+         <datos_encargado>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <telefono></telefono>
+            <nss></nss>
+         </datos_encargado>
+      </comercio>
+
+      <comercios tienda="...">
+         <parcelas></parcelas>
+         <m_cuadrados></m_cuadrados>
+         <datos_encargado>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <telefono></telefono>
+            <nss></nss>
+         </datos_encargado>
+      </comercios>
+
+      <comercios tienda="...">
+         <parcelas></parcelas>
+         <m_cuadrados></m_cuadrados>
+         <datos_encargado>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <telefono></telefono>
+            <nss></nss>
+         </datos_encargado>
+      </comercios>
+      
+      <comercios tienda="...">
+         <parcelas></parcelas>
+         <m_cuadrados></m_cuadrados>
+         <datos_encargado>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <telefono></telefono>
+            <nss></nss>
+         </datos_encargado>
+      </comercios>
+
+      <comercios tienda="...">
+         <parcelas></parcelas>
+         <m_cuadrados></m_cuadrados>
+         <datos_encargado>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <telefono></telefono>
+            <nss></nss>
+         </datos_encargado>
+      </comercios>
+
+
+   </tiendas>
+
+</centro_comercial>

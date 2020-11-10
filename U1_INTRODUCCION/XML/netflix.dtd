@@ -1,0 +1,8 @@
+<!ELEMENT netflix (serie+)>
+<!ELEMENT serie (nombre,director+,captitulos+)> 
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT captitulos (temporada,nombre_cap,orden)>
+<!ELEMENT temporada (#PCDATA)>
+<!ELEMENT nombre_cap (#PCDATA)>
+<!ELEMENT orden (#PCDATA)>
