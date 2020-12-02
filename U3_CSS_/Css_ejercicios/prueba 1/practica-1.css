@@ -1,0 +1,35 @@
+ol{
+
+    list-style-type: none;
+
+}
+
+
+tr:first-child td {
+    background-color: rgb(233, 247, 156);
+    column-span: 3;
+    text-align: center;
+}
+
+tr {
+    margin: 0%;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.top{
+
+    vertical-align: top;
+}
+
+.centro{
+    column-span: 3;
+    text-align: center;
+}
+
+.borde_especial{
+   border: dashed green 2px;
+   
+}

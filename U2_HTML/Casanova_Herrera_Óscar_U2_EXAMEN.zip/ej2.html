@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td{
+            border: 1px solid black ;
+            text-align: center;
+            
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr ><td colspan="5" style="background-color: rgb(189, 188, 188);">My Multi Level Table</td></tr>
+        <tr style="font-weight: bold;">
+            <td colspan="2" rowspan="2">Column 0</td>
+            <td rowspan="2">Column 1</td>
+            <td colspan="2">Column2</td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td>Column 2a</td>
+            <td>Column 2b</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="font-weight: bold;">Row 1</td>
+            <td style="font-weight: bold;">Row 1a</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Row 1b</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-weight: bold;">Row 2</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+    </table>
+</body>
+</html>

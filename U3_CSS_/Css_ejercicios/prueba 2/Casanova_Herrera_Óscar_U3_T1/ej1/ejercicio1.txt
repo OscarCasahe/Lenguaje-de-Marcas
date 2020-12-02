@@ -1,0 +1,26 @@
+
+/* Body */
+body {background-color: tan} 
+
+-Se selecciona "body" y con el background-color se le cambi el color de fondo.
+
+/* HR (Hard Rule = line) */
+hr {color:navy}
+
+-Se seleccionan los hr en su totalidad de manera que estos aparezcan con el color "navy"
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+
+-Se selecciona a los p en su totalidad de manera que todos estos cuenten con un tamaño de letra de 12pt y con el margen a la izquierda de 15px.
+Por otra parte los párrafos con la class=verse tendran color marron y un margen a la izquierda de 60px.
+
+/* Links */
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+-En este caso nos encontramos con 4 enlaces donde se les cambia el color a cada uno, pero cada cual cuenta con un pseudoselector distinto;link(que se puede clickar en el enlace), visited(cambia de tonalidad una vez entras en el enlace),active (cuando se está clickando en enlace cambia de tonalidad) y 
+hover (cada vez que pasa el raton por encima o se encuentra encima el enlace cambia de tonalidad)

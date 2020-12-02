@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <cluser>
 
@@ -172,4 +173,180 @@
 
         </maquinas>
     </nodo>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<cluser>
+
+    <nodo n= "1">
+        <nombre></nombre>
+        <ip></ip>
+        <maquinas>
+            <maquina nombre= "OpenVZ">
+                <s.o> Linux</s.o>
+                <interfaz>
+                    <ip>255.255.255.120</ip>
+                    <mac>AA:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "Virtuozzo">
+                <s.o>Linux</s.o>
+                <interfaz>
+                    <ip>254.255.255.120</ip>
+                    <mac>AC:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "FreeVPS">
+                <s.o>Windows</s.o>
+                <interfaz>
+                    <ip>253.255.255.120</ip>
+                    <mac>AB:OP:CC:DD</mac>
+                </interfaz>
+                <interfaz>
+                    <ip>784.255.255.120</ip>
+                    <mac>AB:OP:CS:DD</mac>
+                </interfaz>
+            </maquina>
+
+
+        </maquinas>
+    </nodo>
+
+    <nodo n= "2">
+        <nombre></nombre>
+        <ip></ip>
+        <maquinas>
+            <maquina nombre= "OpenVZ">
+                <s.o> Linux</s.o>
+                <interfaz>
+                    <ip>255.254.255.120</ip>
+                    <mac>AA:XD:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "Virtuozzo">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>254.253.255.120</ip>
+                    <mac>AC:RT:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "FreeVPS">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>253.252.255.120</ip>
+                    <mac>AB:TR:CC:DD</mac>
+                </interfaz>
+                <interfaz>
+                    <ip>784.255.255.640</ip>
+                    <mac>AB:OP:CS:WQ</mac>
+                </interfaz>
+            </maquina>
+
+
+        </maquinas>
+    </nodo>
+
+    <nodo n= "3">
+        <nombre></nombre>
+        <ip></ip>
+        <maquinas>
+            <maquina nombre= "OpenVZ">
+                <s.o> Linux</s.o>
+                <interfaz>
+                    <ip>255.255.254.120</ip>
+                    <mac>FF:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "Virtuozzo">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>254.255.256.120</ip>
+                    <mac>KJ:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "FreeVPS">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>253.255.253.120</ip>
+                    <mac>QE:BB:CC:DD</mac>
+                </interfaz>
+                   <interfaz>
+                 <ip>444.255.255.120</ip>
+                    <mac>AB:II:CS:DD</mac>
+                </interfaz>
+            </maquina>
+
+
+        </maquinas>
+    </nodo>
+
+    <nodo n= "4">
+        <nombre></nombre>
+        <ip></ip>
+        <maquinas>
+            <maquina nombre= "OpenVZ">
+                <s.o> Linux</s.o>
+                <interfaz>
+                    <ip>255.255.255.127</ip>
+                    <mac>EW:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "Virtuozzo">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>254.255.255.128</ip>
+                    <mac>AY:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "FreeVPS">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>253.255.255.129</ip>
+                    <mac>GE:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+
+        </maquinas>
+    </nodo>
+
+    <nodo n= "5">
+        <nombre></nombre>
+        <ip></ip>
+        <maquinas>
+            <maquina nombre= "OpenVZ">
+                <s.o> Linux</s.o>
+                <interfaz>
+                    <ip>300.255.255.120</ip>
+                    <mac>GD:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "Virtuozzo">
+                <s.o></s.o>
+                <interfaz>
+                    <ip>320.255.255.120</ip>
+                    <mac>VD:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+            <maquina nombre= "FreeVPS">
+                <s.o></s.o>
+                <interfaz>
+                    <ip> 354.255.255.120</ip>
+                    <mac>XC:BB:CC:DD</mac>
+                </interfaz>
+            </maquina>
+
+
+        </maquinas>
+    </nodo>
+>>>>>>> refs/remotes/origin/master
 </cluser>

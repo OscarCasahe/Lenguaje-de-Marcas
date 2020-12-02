@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cursoxmltoxsd.xsd">
     <xs:element name="curso">
@@ -12,4 +13,20 @@
 
         </modulo>
 
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cursoxmltoxsd.xsd">
+    <xs:element name="curso">
+        <modulo>
+            <nombre></nombre>
+            <alumno>
+
+                <nombre> </nombre>
+                <apellido></apellido>
+            </alumno>
+
+
+        </modulo>
+
+>>>>>>> refs/remotes/origin/master
     </curso>

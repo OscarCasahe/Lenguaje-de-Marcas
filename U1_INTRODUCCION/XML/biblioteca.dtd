@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!ELEMENT biblioteca (libro+) >
 <!ELEMENT libro (titulo, autor?,genero,capitulos?) >
 <!ELEMENT titulo (#PCDATA) >
@@ -6,4 +7,14 @@
 <!ELEMENT nombre (#PCDATA) >
 <!ELEMENT nacionalidad (#PCDATA) >
 <!ELEMENT capitulos (capitulo+) >
+=======
+<!ELEMENT biblioteca (libro+) >
+<!ELEMENT libro (titulo, autor?,genero,capitulos?) >
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT GENERO (#PCDATA) >
+<!ELEMENT autor (nombre,nacionalidad) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT nacionalidad (#PCDATA) >
+<!ELEMENT capitulos (capitulo+) >
+>>>>>>> refs/remotes/origin/master
 <!ELEMENT titulo (#PCDATA) >

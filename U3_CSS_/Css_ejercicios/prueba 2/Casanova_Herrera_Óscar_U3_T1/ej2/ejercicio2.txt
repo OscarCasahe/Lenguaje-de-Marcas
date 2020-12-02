@@ -1,0 +1,2 @@
+Esto se debe a que en los dos primeros párrafos están seleccionados como class=verse, lo que hace que en el css
+ la tera seade color marrón y cuenten con un margen mayor
