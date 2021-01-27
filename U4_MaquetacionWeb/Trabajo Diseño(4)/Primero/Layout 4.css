@@ -1,0 +1,56 @@
+*{
+
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+
+}
+
+.menu{
+
+    background-color: rgb(218, 216, 213);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+
+.menu > nav > div{
+    display: inline-block;
+    width: 15%;
+ 
+}
+
+.container .menu div:first-child{
+    width: 20%;
+    display: inline-block;
+}
+
+.menu nav{
+
+    float: right;
+    padding: 25px;
+    width: 60%;
+   
+}
+
+.main{
+   
+    background-color: rgb(255, 147, 237);
+
+}
+
+footer{
+    background-color: khaki;
+}
+
+
+
+ footer div{
+   float: left;
+    background-color: rgb(194, 192, 189);
+    width: 25%;
+}
+

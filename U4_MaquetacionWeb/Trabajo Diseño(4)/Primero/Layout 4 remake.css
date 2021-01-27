@@ -1,0 +1,222 @@
+*{
+
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+
+}
+
+.menu,.container,footer {
+    max-width: 95%;
+    margin: 0px auto;
+   
+}
+
+.container,footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/*Navegador*/
+
+
+
+
+.menu{
+    margin: 0px auto;
+    background-color: rgb(193, 243, 191);
+    overflow-y: auto;
+    position: sticky;
+    z-index: 100;
+    padding: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.menu > i > h1 {
+    float: left;
+    padding-left: 80px;
+}
+
+.menu > i > h1{
+    color: rgb(0, 174, 255);
+}
+
+.menu > i > h1 span:first-child{
+    opacity: 50%;
+    color: black;
+}
+
+.menu > i > h1 span:nth-child(2){
+    color: black;
+}
+
+
+.nav-item{
+    width: 8%;
+    float: right;
+   font-size: 17px;
+   padding-top: 30px;
+
+}
+
+
+
+
+/*Container*/
+
+.container{
+    background-color: bisque;
+    overflow-y: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.main {
+    overflow-y: auto;
+}
+
+
+.main > div {
+    float: left;
+}
+
+.main > div {
+    float: left;
+}
+
+ .rotar {
+    float: left;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    height: 50px;
+    margin-left: 10px;
+}
+
+.rotar > div {
+    float: left;
+}
+
+.rotar > div:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 25px;
+    float: right;
+}
+
+.numeros {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*IMAGEN*/
+
+.main > div:nth-child(2){
+    width: 55%;
+}
+
+img {
+    width: 100%;
+}
+
+/*
+.main > div {
+    float: left;
+}
+
+.main div:nth-child(2){
+    width: 40%;
+}
+
+img {
+    width: 150%;
+}
+
+.main > div {
+  float:left
+    
+}
+
+
+
+.main > div > div:nth-child(2){
+    width: 40%;
+}
+
+.main > div > .div1{
+    width: 10%;
+    background-color: coral;
+}
+
+.main > div > .div2{
+    width: 10%;
+    background-color: rgb(247, 165, 57);
+}
+
+.main > div > .div3{
+    width: 10%;
+    background-color: rgb(240, 227, 56);
+}
+
+.main > div > .div4{
+    width: 10%;
+    background-color: rgb(139, 177, 1);
+}
+
+.main > div > .div5{
+    width: 10%;
+    background-color: rgb(46, 150, 15);
+}
+
+.rotar {
+
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    overflow-y: auto;
+    width: 20%;
+    background-color: coral;
+}
+*/
+
+/*Footer*/
+
+footer {
+    overflow-y: auto;
+}
+
+footer > div > div{
+    background-color:rgb(197, 197, 197);
+    width: 23%;
+    float: left;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+footer > div > div:nth-child(1) {
+    margin-left: 0px;
+}
+
+
+
+
+footer > div > div:nth-child(2) {
+    margin-left: 37px;
+}
+
+footer > div > div:nth-child(3) {
+    margin-left: 37px;
+}
+
+footer > div > div:nth-child(4) {
+    margin-left: 40px;
+}
+
+footer > div > div > h1 {
+    margin-top: 0px;
+}
+
+.letras {
+    font-size: 18px;
+}
+
+
