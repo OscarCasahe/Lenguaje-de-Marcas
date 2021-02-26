@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0px auto;
+}
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.topHeader {
+    width: 100%;
+    background-color: rgb(12, 145, 12);
+}
+
+.topHeader > div:first-child {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+.botHeader {
+    width: 100%;
+    background-color: green;
+}
+
+
+/*MAIN*/
+
+.main {
+    background-color: rgb(219, 207, 188);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.social {
+    background-color: blanchedalmond;
+    width: 10%;
+}
+
+.centro {
+    background-color: blanchedalmond;
+    width: 36%;
+}
+
+.cta {
+    background-color: blanchedalmond;
+    width: 36%;
+}

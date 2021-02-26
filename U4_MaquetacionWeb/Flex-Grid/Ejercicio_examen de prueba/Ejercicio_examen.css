@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+/*------------------------------------HEADER------------------------------------*/
+
+.header {
+    display: grid;
+
+}
+
+
+.header  h1 {
+    padding-left: 10px;
+}
+
+.header > div:first-child > div:first-child {
+    display: flex;
+    justify-content: start;
+}
+
+.header > div:first-child > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.borde {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.grey {
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgba(138, 148, 148, 0.959);
+}
+
+/*------------------------------------PARTE CONTACTOS------------------------*/
+
+.contactos {
+    padding-bottom: 10px;
+}
+
+.contactos  span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacto2 {
+    width: 15px;
+}
+
+.contacto1 {
+    width: 20px;
+    height: 15px;
+    margin-top: 3px;
+    
+}
+
+.punto {
+    color: rgb(19, 109, 19);
+}
+
+/*---------------------------------NAVEGADOR--------------------------------*/
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+
+.nav > div > ul {
+    display: flex;
+    justify-content: start;
+}
+
+li {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+
+.nav > div > img {
+    width: 30px;
+    margin-right: 0px;
+   
+}
+
+
+/*---------------------------------MAIN---------------------------------*/
+
+
+
+
+
+
+/*FOOTER*/
