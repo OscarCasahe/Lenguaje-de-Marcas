@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+   margin: 20px;
+   font-family: 'PT Sans', sans-serif;
+}
+
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.header > div:nth-child(1) {
+    margin-left: 15px;
+    color: rgb(10, 163, 184);
+}
+
+.header > div:first-child > h1 > span:first-child{
+    opacity: 50%;
+    color: grey;
+}
+
+.header > div:first-child > h1 > span:nth-child(2){
+    color: black;
+}
+
+
+.nav {
+    display: flex;
+    padding-top: 35px;
+    font-weight: bold;
+   
+}
+
+.nav-item {
+    margin-right: 32px;
+}
+
+
+/*MAIN*/
+
+.main {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    padding: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+
+
+.textoGirado {
+    width: 60%;
+    transform: rotate(-90deg);
+    position: absolute;
+    display: flex   ;
+    left: 1.2rem;
+    font-size: 35px;
+}
+
+.main > div > div:first-child {
+    top: 105px;
+}
+
+.main > div:nth-child(3) > div:first-child {
+    top: 150px;
+}
+
+.main > div:nth-child(4) > div:first-child {
+    top: 240px;
+}
+
+.main > div:nth-child(5) > div:first-child {
+    top: 160px;
+}
+
+.main > div:nth-child(6) > div:first-child {
+    top: 290px;
+}
+
+div >span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.main h1 {
+    position: absolute;
+    bottom: 0rem;
+    left: 2.5rem;
+    font-weight:  bold;
+}
+
+
+
+.main > div {
+    width: 7%;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.main div:nth-child(2){
+    width: 60%;
+}
+
+.imagenCajaGrande {
+    width: 100%;
+}
+
+.naranja{
+    background-color: rgb(236, 160, 17);
+}
+
+
+.naranjaClaro{
+    background-color: rgb(238, 182, 79);
+}
+
+.amarillo{
+    background-color: rgb(233, 205, 47);
+
+}
+
+
+.verdeClaro{
+    background-color: rgb(106, 189, 58);
+}
+
+.verdeOscuro{
+    background-color: rgb(47, 119, 37);
+}
+
+
+
+
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.footer > div {
+    background-color: rgb(236, 236, 236);
+    width: 23%;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 15px;
+    
+    
+   
+}
+
+.footer > div > div:first-child {
+    
+}
+
+
+.linea {
+    border: rgb(119, 118, 118) solid 0.5px;
+    opacity: 70%;
+    width:100%;
+}
+
+.footer > div > div:nth-child(3) {
+    margin-top: 15px;
+    line-height: 25px;
+    line-break: auto;
+}
+
+
+
+
+
+
+
+

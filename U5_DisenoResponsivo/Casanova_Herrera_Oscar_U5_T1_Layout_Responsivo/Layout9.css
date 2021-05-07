@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -332,3 +333,339 @@ li {
         width: 35%;
     }
 
+=======
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px auto;
+    background-color: rgb(243, 236, 236);
+}
+
+
+
+/*HEADER*/
+
+.header {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.topHeader {
+    background-color: rgb(79, 148, 10);
+    display: flex;
+}
+
+.topHeader > div:first-child {
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+
+}
+
+.topHeader > div:first-child > * {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.topHeader > div:first-child > span:first-child {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.topHeader > div:nth-child(2) {
+    width: 30%;
+}
+
+
+
+.botHeader {
+    background-color: rgb(49, 92, 7);
+    padding: 10px;
+    padding-left: 35px;
+    display: flex;
+}
+
+
+
+
+
+.botHeader > h2 > span {
+    font-weight: bold;
+}
+
+.palabraRotada {
+    transform: rotate(-90deg);
+   
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 80px;
+    float: right;
+    margin-right: -25px;
+}
+
+.cabra {
+    width: 60%;
+    float: right;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+
+/*MAIN*/
+
+.main {
+   
+  
+    padding: 35px;
+    width: 100%;
+}
+
+.imagen {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+
+/*CENTRO*/
+
+
+li {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+
+/*CTA*/
+
+.cta {
+    margin-bottom: 25px;
+}
+
+.topCta {
+    background-color: rgb(153, 71, 47);
+    color: white;
+    padding: 20px;
+}
+
+.boldCta {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
+.botCta {
+    background-color: rgb(224, 220, 220);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.cta div button {
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 29%, rgba(176,0,0,1) 75%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 60%;
+}
+
+
+/*SOCIAL*/
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social > div {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.social > div > div {
+    background-color: white;
+    border: 1px black solid;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.social > div > button {
+    width: 65px;
+    margin-left: -2px;
+    border-radius: 3px;
+}
+
+.google {
+    padding-left: 40px;
+}
+
+.facebook {
+    padding-left: 50px;
+}
+
+
+
+
+@media screen and (min-width:576px){
+
+    .topHeader {
+        height: 250px;
+    }
+
+    .cabra {
+        width: 45%;
+    }
+    .palabraRotada {
+        margin-top: 110px;
+        padding-top: 170px;
+        font-size: 30px;
+    }
+
+    .topHeader > div:first-child > p {
+        font-size: 30px;
+    }
+
+
+    .topHeader > div:first-child {
+        width: 70%;
+        padding-top: 50px;
+    }
+
+    .bold:first-child {
+        margin-top: 40px;
+    }
+    
+    .topHeader > div:first-child > span:first-child {
+        font-size: 30px;
+    }
+
+    .topHeader > div:first-child > * {
+        font-size: 35px;
+    }
+
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .centro {
+        width: 45%;
+        order: 2;
+        height: 458.5px;
+        margin-left: 55px;
+    }
+
+
+    .cta {
+        width: 45%;
+        order: 1;
+    }
+
+    .topCta > p {
+        margin-bottom: 0px;
+    }
+
+    .botCta >p:first-child {
+        text-align: left;
+    }
+
+
+    .social {
+        order: 3;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+   
+   
+}
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .cabra {
+        width: 35%;
+    }
+
+    .palabraRotada {
+        padding-top: 220px;
+        margin-top: 90px;
+    }
+
+    .topHeader > div:first-child > p {
+        font-size: 40px;
+    }
+
+    /* MAIN*/
+
+    .main {
+        justify-content: space-between;
+    }
+
+    .social {
+        order: 1;
+        width: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tweeter {
+        padding-right: 30px;
+    }
+
+
+    .google {
+        padding-right: 65px;
+    }
+    
+    .facebook {
+        padding-right: 75px;
+    }
+    
+
+
+    .centro {
+        order: 2;
+        width: 50%;
+    }
+
+    .cta {
+        order: 3;
+        width: 35%;
+    }
+
+>>>>>>> 2a31a9bb3fdf1dcb78aa7054a7e70fcf927e2898
