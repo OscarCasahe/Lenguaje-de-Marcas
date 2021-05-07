@@ -1,0 +1,51 @@
+///Color base para fondo light
+///@group colores
+
+$color-base: #cccccc;
+
+///Color letra para fondo light
+///@group colores
+
+$color-letra: black;
+
+
+
+///Color base para fondo light
+///@group colores
+
+$color-base-dark: #202020;
+
+///Color letra para fondo light
+///@group colores
+
+$color-letra-dark: rgb(255, 255, 255);
+
+
+
+///Color rojo para las letras
+///@group colores
+$color-red: rgb(240, 0, 0);
+
+///Color verde para las letras
+///@group colores
+$color-green: rgb(81, 218, 2);
+
+///Color naranja para las letras
+///@group colores
+$color-orange: rgb(219, 112, 24);
+
+///Color azul para las letras
+///@group colores
+$color-purple: rgb(72, 9, 247);
+
+$lista-colores :$color-red, $color-green, $color-orange, $color-purple;
+
+
+///Booleano para definir el tema
+$dark-theme : true;
+
+
+@if $dark-theme {
+   $color-base: $color-base-dark;
+   $color-letra: $color-letra-dark;
+}

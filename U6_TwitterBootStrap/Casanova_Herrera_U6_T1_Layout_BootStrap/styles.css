@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    margin: 0px auto;
+}
+
+/*-------------HEADER-------------*/
+
+header {
+    background-color: rgb(79, 148, 10);
+}
+
+.topHeader > div > p {
+    font-size: 1rem;
+}
+
+
+
+
+
+.palabraRotada {
+    transform: rotate(-90deg);
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.botHeader {
+    background-color: rgb(49, 92, 7);
+}
+
+.botHeader > .bold {
+    font-weight: bold;
+}
+
+
+
+
+/*----------------MAIN-----------------*/
+
+.main {
+    background-color: rgb(238, 230, 230);
+    display: flex;
+}
+
+
+/*CTA*/
+.topCta {
+    background-color: rgb(153, 71, 47);
+}
+
+.botCta {
+    background-color: rgb(224, 220, 220);
+    color: black;
+}
+
+
+.boton{
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 29%, rgba(176,0,0,1) 75%);
+    border: none;
+    color: white;
+
+}
+
+
+
+/*SOCIAL*/
+
+.google {
+    color: rgb(238, 82, 10);
+}
+
+
+
+@media screen and (min-width:576px){
+
+    /*HEADER*/
+.topHeader > div > span {
+    font-size: 1.5rem;
+}
+
+.topHeader > div > p {
+    font-size: 1.7rem;
+}
+
+
+.palabraRotada{
+    font-size: 1.5rem;
+}
+
+/*MAIN*/
+
+.boton > span {
+    font-size: 1rem;
+}
+
+}

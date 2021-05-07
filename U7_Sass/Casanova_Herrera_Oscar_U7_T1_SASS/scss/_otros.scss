@@ -1,0 +1,62 @@
+@include reset();
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-base;
+    color: $color-letra;
+}
+
+.container {
+    @include centrado(10px, 95%);
+}
+
+
+@for $i from 1 through 4 {
+
+    .section-title-#{$i} {
+        color: colorSectionTitle($i)
+    }
+
+}
+
+.full-name {
+    font-size: 50px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+
+.skills {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .skills__item {
+        margin-top: 8px;
+    }
+}
+
+
+.header {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+
+    //Me daba error intentándolo con el separador, asi que he recurrido a esto
+
+   .email-val{
+       border-right: 2px solid black;
+       padding-right: 15px;
+       margin-right: 10px;
+   }
+
+    
+
+}

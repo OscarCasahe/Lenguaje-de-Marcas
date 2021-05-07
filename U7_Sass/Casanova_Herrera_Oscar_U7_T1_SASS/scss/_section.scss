@@ -1,0 +1,45 @@
+
+.section {
+
+    overflow-y: auto;
+
+    .section__title {
+        padding-top: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    
+    .section__list {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .section__list-item {
+
+        display: flex;
+        padding-bottom: 15px;
+        
+    }
+
+ 
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        width: 50%;
+    }
+}
+
+
+
+
+.section:nth-child(5){
+
+    .section__title{
+        border-bottom: none;
+    }
+
+
+}

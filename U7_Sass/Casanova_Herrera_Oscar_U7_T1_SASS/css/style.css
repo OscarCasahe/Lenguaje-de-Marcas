@@ -1,0 +1,87 @@
+.section {
+  overflow-y: auto;
+}
+.section .section__title {
+  padding-top: 10px;
+  border-bottom: 2px solid black;
+}
+.section .section__list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.section .section__list-item {
+  display: flex;
+  padding-bottom: 15px;
+}
+.section .left {
+  width: 50%;
+}
+.section .right {
+  width: 50%;
+}
+
+.section:nth-child(5) .section__title {
+  border-bottom: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  color: white;
+}
+
+.container {
+  margin: 10px auto;
+  width: 95%;
+}
+
+.section-title-1 {
+  color: #f00000;
+}
+
+.section-title-2 {
+  color: #51da02;
+}
+
+.section-title-3 {
+  color: #db7018;
+}
+
+.section-title-4 {
+  color: #4809f7;
+}
+
+.full-name {
+  font-size: 50px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.skills {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skills .skills__item {
+  margin-top: 8px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.contact-info .email-val {
+  border-right: 2px solid black;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

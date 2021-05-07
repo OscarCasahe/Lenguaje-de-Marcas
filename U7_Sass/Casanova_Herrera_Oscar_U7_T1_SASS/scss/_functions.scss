@@ -1,0 +1,10 @@
+@use "sass:list";
+
+///Funcion para crear reglas css de colores para sections
+///@group functions
+
+
+@function colorSectionTitle($number){
+
+    @return list.nth($lista-colores, $number)
+}
